@@ -84,22 +84,7 @@
 &lt;hr&gt;
 &lt;h2 id="adding-a-model"&gt;Adding a Model &lt;a href="#adding-a-model" class="anchor" aria-hidden="true"&gt;&lt;i class="material-icons align-middle"&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3 id="step-1-navigate-to-ai-models"&gt;Step 1: Navigate to AI Models &lt;a href="#step-1-navigate-to-ai-models" class="anchor" aria-hidden="true"&gt;&lt;i class="material-icons align-middle"&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Click &lt;strong&gt;⚙️ AI Models&lt;/strong&gt; in the navigation menu.&lt;/p&gt;</description></item><item><title>Elicitations</title><link>https://mcp-explorer-docs.garrardkitchen.com/docs/features/elicitations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mcp-explorer-docs.garrardkitchen.com/docs/features/elicitations/</guid><description>&lt;h2 id="overview"&gt;Overview &lt;a href="#overview" class="anchor" aria-hidden="true"&gt;&lt;i class="material-icons align-middle"&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Elicitations&lt;/strong&gt; allow MCP servers to request structured input from users during tool execution. This enables interactive workflows where servers need additional information mid-operation.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id="key-capabilities"&gt;Key Capabilities &lt;a href="#key-capabilities" class="anchor" aria-hidden="true"&gt;&lt;i class="material-icons align-middle"&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;🔔 Server-initiated modal dialogs during tool execution&lt;/li&gt;
-&lt;li&gt;📝 Support for Boolean, Number, String, and Enum input types&lt;/li&gt;
-&lt;li&gt;📅 Smart input fields (email, date, datetime, URI validation)&lt;/li&gt;
-&lt;li&gt;📋 Dedicated Elicitations tab for pending requests&lt;/li&gt;
-&lt;li&gt;📜 Complete history with status tracking&lt;/li&gt;
-&lt;li&gt;⏱️ Configurable timeout behavior (optional)&lt;/li&gt;
-&lt;li&gt;✅ Accept/Reject workflow&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id="how-elicitations-work"&gt;How Elicitations Work &lt;a href="#how-elicitations-work" class="anchor" aria-hidden="true"&gt;&lt;i class="material-icons align-middle"&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3 id="typical-flow"&gt;Typical Flow &lt;a href="#typical-flow" class="anchor" aria-hidden="true"&gt;&lt;i class="material-icons align-middle"&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;User calls a tool&lt;/strong&gt; (from Tools tab or via Chat)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Server needs input&lt;/strong&gt; (e.g., &amp;ldquo;Approve this action?&amp;rdquo;)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Modal appears&lt;/strong&gt; with the server&amp;rsquo;s message and input fields&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;User responds&lt;/strong&gt; by filling fields and clicking Accept/Reject&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Server receives response&lt;/strong&gt; and continues execution&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;
-&lt;h2 id="server-initiated-requests"&gt;Server-Initiated Requests &lt;a href="#server-initiated-requests" class="anchor" aria-hidden="true"&gt;&lt;i class="material-icons align-middle"&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3 id="modal-dialog"&gt;Modal Dialog &lt;a href="#modal-dialog" class="anchor" aria-hidden="true"&gt;&lt;i class="material-icons align-middle"&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;When a server requests input during execution, a modal automatically appears.&lt;/p&gt;</description></item></channel></rss>
+&lt;h2 id="key-capabilities"&gt;Key Capabilities &lt;a href="#key-capabilities" class="anchor" aria-hidden="true"&gt;&lt;i class="material-icons align-middle"&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3 id="-server-initiated-modal"&gt;🔔 Server-initiated modal &lt;a href="#-server-initiated-modal" class="anchor" aria-hidden="true"&gt;&lt;i class="material-icons align-middle"&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Server-initiated modal dialogs during tool execution&lt;/p&gt;
+&lt;h3 id="-supports-multiple-types"&gt;📝 Supports multiple types &lt;a href="#-supports-multiple-types" class="anchor" aria-hidden="true"&gt;&lt;i class="material-icons align-middle"&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Support for Boolean, Number, String, and Enum input types&lt;/p&gt;
+&lt;h3 id="-mart-input-fields"&gt;📅 mart input fields &lt;a href="#-mart-input-fields" class="anchor" aria-hidden="true"&gt;&lt;i class="material-icons align-middle"&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Smart input fields (email, date, datetime, URI validation)&lt;/p&gt;
+&lt;h3 id="-dedicated-elicitations-tab"&gt;📋 Dedicated Elicitations tab &lt;a href="#-dedicated-elicitations-tab" class="anchor" aria-hidden="true"&gt;&lt;i class="material-icons align-middle"&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Dedicated Elicitations tab for pending requests&lt;/p&gt;</description></item></channel></rss>
