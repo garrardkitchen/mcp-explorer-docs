@@ -53,8 +53,7 @@
 &lt;li&gt;Connect to server supporting templates&lt;/li&gt;
 &lt;li&gt;Browse available templates&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;📸 Screenshot needed:&lt;/strong&gt; &lt;code&gt;resource-templates-list.png&lt;/code&gt;
-&lt;em&gt;Description: Show the Resource Templates tab with multiple templates listed showing URI patterns&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Resources</title><link>https://mcp-explorer-docs.garrardkitchen.com/docs/features/resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mcp-explorer-docs.garrardkitchen.com/docs/features/resources/</guid><description>&lt;h2 id="overview"&gt;Overview &lt;a href="#overview" class="anchor" aria-hidden="true"&gt;&lt;i class="material-icons align-middle"&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Resources&lt;/strong&gt; represent external data sources (files, databases, APIs) accessible via URI from MCP servers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;📸 Screenshot:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Resources</title><link>https://mcp-explorer-docs.garrardkitchen.com/docs/features/resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mcp-explorer-docs.garrardkitchen.com/docs/features/resources/</guid><description>&lt;h2 id="overview"&gt;Overview &lt;a href="#overview" class="anchor" aria-hidden="true"&gt;&lt;i class="material-icons align-middle"&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Resources&lt;/strong&gt; represent external data sources (files, databases, APIs) accessible via URI from MCP servers.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id="key-capabilities"&gt;Key Capabilities &lt;a href="#key-capabilities" class="anchor" aria-hidden="true"&gt;&lt;i class="material-icons align-middle"&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;📚 Browse all resources from connected servers&lt;/li&gt;
