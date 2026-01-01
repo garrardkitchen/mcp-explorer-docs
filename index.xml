@@ -20,8 +20,24 @@
 &lt;h3 id="-real-time-search"&gt;🔍 Real-time Search &lt;a href="#-real-time-search" class="anchor" aria-hidden="true"&gt;&lt;i class="material-icons align-middle"&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Find connections by name, description, or auth type&lt;/p&gt;</description></item><item><title>Your First Connection</title><link>https://mcp-explorer-docs.garrardkitchen.com/docs/getting-started/first-connection/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mcp-explorer-docs.garrardkitchen.com/docs/getting-started/first-connection/</guid><description>&lt;h2 id="overview"&gt;Overview &lt;a href="#overview" class="anchor" aria-hidden="true"&gt;&lt;i class="material-icons align-middle"&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Connections are the foundation of MCP Explorer. They define how to connect to MCP servers via different transports (stdio, HTTP, SSE) and authentication methods.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id="creating-a-connection"&gt;Creating a Connection &lt;a href="#creating-a-connection" class="anchor" aria-hidden="true"&gt;&lt;i class="material-icons align-middle"&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3 id="step-1-navigate-to-connections"&gt;Step 1: Navigate to Connections &lt;a href="#step-1-navigate-to-connections" class="anchor" aria-hidden="true"&gt;&lt;i class="material-icons align-middle"&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Click the &lt;strong&gt;🔌 Connections&lt;/strong&gt; tab in the navigation menu.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;📸 Screenshot needed:&lt;/strong&gt; &lt;code&gt;connections-tab-overview.png&lt;/code&gt;
-&lt;em&gt;Description: Show the Connections page with the main interface, including the &amp;ldquo;Add Connection&amp;rdquo; button and the search filter at the top&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Basic Concepts</title><link>https://mcp-explorer-docs.garrardkitchen.com/docs/getting-started/concepts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mcp-explorer-docs.garrardkitchen.com/docs/getting-started/concepts/</guid><description>&lt;h2 id="what-is-mcp"&gt;What is MCP? &lt;a href="#what-is-mcp" class="anchor" aria-hidden="true"&gt;&lt;i class="material-icons align-middle"&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Model Context Protocol (MCP)&lt;/strong&gt; is a standardized protocol for communication between AI applications and external services or tools. It enables:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;📸 Screenshot:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+ 
+
+
+
+ 
+ 
+ &lt;img src="https://mcp-explorer-docs.garrardkitchen.com/images/connection-first.png" alt="connection-first" width="3008" height="1518" loading="lazy"&gt;
+ 
+ 
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Description: Show the Connections page with the main interface, including the &amp;ldquo;Create your first connection&amp;rdquo; or &amp;ldquo;New connection&amp;rdquo; button and the search filter at the top&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Basic Concepts</title><link>https://mcp-explorer-docs.garrardkitchen.com/docs/getting-started/concepts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mcp-explorer-docs.garrardkitchen.com/docs/getting-started/concepts/</guid><description>&lt;h2 id="what-is-mcp"&gt;What is MCP? &lt;a href="#what-is-mcp" class="anchor" aria-hidden="true"&gt;&lt;i class="material-icons align-middle"&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Model Context Protocol (MCP)&lt;/strong&gt; is a standardized protocol for communication between AI applications and external services or tools. It enables:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Tool Calling&lt;/strong&gt;: AI models can invoke external functions/APIs&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Prompts&lt;/strong&gt;: Pre-configured message templates with dynamic arguments&lt;/li&gt;
