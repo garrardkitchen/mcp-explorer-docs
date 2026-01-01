@@ -30,17 +30,17 @@ cd mcp-explorer</code>
   <code>docker run -p 8080:8080 garrardkitchen/mcp-explorer:latest</code>
   </pre></div><p>Then open your browser to <code>http://localhost:8080</code></p><p><strong>Custom port mapping:</strong></p><div class=prism-codeblock><pre id=6abbf38 class=language-bash>
   <code>docker run -p 5001:8080 garrardkitchen/mcp-explorer:latest</code>
-  </pre></div><p><strong>DX Tip:</strong></p><p>Here&rsquo;s what I run when using on different platforms:</p><nav><div class="nav nav-tabs" id=nav-tab role=tablist><a class="nav-link active" id=dcfeabTab data-bs-toggle=tab data-bs-target=#dcfeab type=button role=tab aria-controls=dcfeab aria-selected=true>Windows</a>
-<a class=nav-link id=abecdfTab data-bs-toggle=tab data-bs-target=#abecdf type=button role=tab aria-controls=abecdf aria-selected=true>MacOS</a>
-<a class=nav-link id=ebdfcaTab data-bs-toggle=tab data-bs-target=#ebdfca type=button role=tab aria-controls=ebdfca aria-selected=true>Linux</a></div></nav><div class=tab-content id=nav-tab-content><div class="tab-pane fade show active" id=dcfeab role=tabpanel aria-labelledby=nav-1><p><strong>Windows Content</strong></p><div class="prism-codeblock linenos"><pre id=d773e57 class="language-bash line-numbers">
+  </pre></div><p><strong>DX Tip:</strong></p><p>Here&rsquo;s what I run when using on different platforms:</p><nav><div class="nav nav-tabs" id=nav-tab role=tablist><a class="nav-link active" id=fdbaecTab data-bs-toggle=tab data-bs-target=#fdbaec type=button role=tab aria-controls=fdbaec aria-selected=true>Windows</a>
+<a class=nav-link id=fdcaebTab data-bs-toggle=tab data-bs-target=#fdcaeb type=button role=tab aria-controls=fdcaeb aria-selected=true>MacOS</a>
+<a class=nav-link id=fdceabTab data-bs-toggle=tab data-bs-target=#fdceab type=button role=tab aria-controls=fdceab aria-selected=true>Linux</a></div></nav><div class=tab-content id=nav-tab-content><div class="tab-pane fade show active" id=fdbaec role=tabpanel aria-labelledby=nav-1><p><strong>Windows Content</strong></p><div class="prism-codeblock linenos"><pre id=d773e57 class="language-bash line-numbers">
   <code>$dataRoot=&#34;$HOME\AppData\Local\McpExplorer-docker&#34;
 Start-Process -FilePath &#34;C:\Program Files\Google\Chrome\Application\chrome.exe&#34; -ArgumentList &#34;http://localhost:8080&#34;
 docker run --rm -it -p 8080:8080 -v &#34;${dataRoot}:/root/.local/share/McpExplorer&#34; garrardkitchen/mcp-explorer:latest</code>
-  </pre></div></div><div class="tab-pane fade" id=abecdf role=tabpanel aria-labelledby=nav-1><div class="prism-codeblock linenos"><pre id=912c836 class="language-bash line-numbers">
+  </pre></div></div><div class="tab-pane fade" id=fdcaeb role=tabpanel aria-labelledby=nav-1><div class="prism-codeblock linenos"><pre id=912c836 class="language-bash line-numbers">
   <code>dataRoot=&#34;$HOME/Library/Application Support/McpExplorer-docker&#34;
 open -a &#34;Google Chrome&#34; &#34;http://localhost:8080&#34;
 docker run --rm -it -p 8080:8080 -v &#34;${dataRoot}:/root/.local/share/McpExplorer&#34; garrardkitchen/mcp-explorer:latest</code>
-  </pre></div><p>Example content specific to <strong>Mac</strong> operating systems</p></div><div class="tab-pane fade" id=ebdfca role=tabpanel aria-labelledby=nav-1><p><strong>Linux Content</strong></p><div class="prism-codeblock linenos"><pre id=a0c753f class="language-bash line-numbers">
+  </pre></div><p>Example content specific to <strong>Mac</strong> operating systems</p></div><div class="tab-pane fade" id=fdceab role=tabpanel aria-labelledby=nav-1><p><strong>Linux Content</strong></p><div class="prism-codeblock linenos"><pre id=a0c753f class="language-bash line-numbers">
   <code>dataRoot=&#34;$HOME/.config/McpExplorer-docker&#34;
 google-chrome http://localhost:8080
 docker run --rm -it -p 8080:8080 -v &#34;${dataRoot}:/root/.local/share/McpExplorer&#34; garrardkitchen/mcp-explorer:latest</code>
